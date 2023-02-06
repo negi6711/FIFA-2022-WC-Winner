@@ -22,6 +22,7 @@ Based on feature enginnering and data analysis of the data about which features 
 -dif_points_rank
 -dif_points_rank_l5
 -is_friendly
+
 Now that I've have a database ready and with columns with predictive power, I can start modelling.
 After testing 3 models: Random Forest, Gradient Boosting & XGBoost, I saw that Gradient Boosting did the best for the dataset even though Random Forest was a bit better. It underfit though.
 Also there wasn't that big of a difference between XGBoost & Gradient Boosting Clasifier and that's why I went with GBC.
